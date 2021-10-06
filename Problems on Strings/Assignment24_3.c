@@ -12,16 +12,25 @@
 
 int FirstChar(char *Str, char cVal)
 {
-    int i = 0;
+  int i = 0, iCnt = 0;
     while (Str[i] != '\0')
     {
+        iCnt++;
         if(Str[i] == cVal)
         {
-           break;
+            break;
         }
+        
         i++;
     }
-    return i;
+    if(i == iCnt)
+    {
+        return -1;
+    }
+    else
+    {
+        return i;
+    }
     
 }
 
