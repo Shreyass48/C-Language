@@ -12,7 +12,7 @@
 
 int LastChar(char *Str, char cVal)
 {
-    int i = 0, temp = 0;
+    int i = 0, temp = -1;
     while (Str[i] != '\0')
     {
         if(Str[i] == cVal)
