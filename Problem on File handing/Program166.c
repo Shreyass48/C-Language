@@ -38,7 +38,7 @@ int main()
     {
         write(1,Buffer,iRet);
     }
-     printf("\n"); 
+    printf("\n"); 
 
     close(fd);
     return 0;

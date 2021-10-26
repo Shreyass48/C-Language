@@ -39,7 +39,7 @@ int main()
     printf("Data from the file:\n");
 
     write(1,Data,iRet);
-     printf("\n");
+    printf("\n");
 
     return 0;
 }
